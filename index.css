@@ -1,0 +1,297 @@
+* {
+  box-sizing: border-box;
+}
+
+.display-screen {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    grid-area: _display;
+    border: 1px black solid;
+    font-family: monospace;
+    text-align: right;
+    font-size: 50px;
+    height: 120px;
+    padding-top: 42px;
+    margin-bottom: 0px;
+}
+
+.cancle-button {
+    background-color: #d8d9db;
+    grid-area: _cancle;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+    font-size: 70px;
+    height: 120px;
+    padding-top: 20px;
+}
+
+.cancle-button:hover {
+    background-color: #eaebec;
+}
+
+.remove-button {
+    background-color: #d8d9db;
+    grid-area: _remove;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+
+}
+
+.remove-button:hover {
+    background-color: #eaebec;
+}
+
+
+.divide-button {
+    background-color: #df974c;
+    grid-area: _divide;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+
+}
+
+.divide-button:hover {
+    background-color: #e8b47a;
+}
+
+.multiply-button {
+    background-color: #df974c;
+    grid-area: _multiply;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+
+}
+
+.multiply-button:hover {
+    background-color: #e8b47a;
+}
+
+.subtract-button {
+    background-color: #df974c;
+    grid-area: _subtract;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+
+}
+
+.subtract-button:hover {
+    background-color: #e8b47a;
+}
+
+.add-button {
+    background-color: #df974c;
+    grid-area: _add;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+
+}
+
+.add-button:hover {
+    background-color: #e8b47a;
+}
+
+.equal-button {
+    background-color: #df974c;
+    grid-area: _equal;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+
+}
+
+.equal-button:hover {
+    background-color: #e8b47a;
+}
+
+.button-0 {
+    background-color: #d8d9db;
+    grid-area: _0;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+    font-size: 50px;
+    height: 120px;
+    padding-top: 30px;
+
+}
+
+.button-0:hover {
+    background-color: #eaebec;
+}
+
+
+.button-1 {
+    background-color: #d8d9db;
+    grid-area: _1;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+
+}
+
+.button-1:hover {
+    background-color: #eaebec;
+}
+
+.button-2 {
+    background-color: #d8d9db;
+    grid-area: _2;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+
+}
+
+.button-2:hover {
+    background-color: #eaebec;
+}
+
+
+.button-3 {
+    background-color: #d8d9db;
+    grid-area: _3;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+    font-size: 50px;
+    height: 120px;
+    padding-top: 30px;
+
+}
+
+.button-3:hover {
+    background-color: #eaebec;
+}
+
+.button-4 {
+    background-color: #d8d9db;
+    grid-area: _4;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+    font-size: 50px;
+    height: 120px;
+    padding-top: 30px;
+
+}
+
+.button-4:hover {
+    background-color: #eaebec;
+}
+
+.button-5 {
+    background-color: #d8d9db;
+    grid-area: _5;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+
+}
+
+.button-5:hover {
+    background-color: #eaebec;
+}
+
+.button-6 {
+    background-color: #d8d9db;
+    grid-area: _6;
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+
+}
+
+.button-6:hover {
+    background-color: #eaebec;
+}
+
+.button-7 {
+    background-color: #d8d9db;
+    grid-area: _7;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+    font-size: 50px;
+    height: 120px;
+    padding-top: 30px;
+
+}
+
+.button-7:hover {
+    background-color: #eaebec;
+}
+
+
+.button-8 {
+    background-color: #d8d9db;
+    grid-area: _8;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+
+
+}
+
+.button-8:hover {
+    background-color: #eaebec;
+}
+
+.button-9 {
+    background-color: #d8d9db;
+    grid-area: _9;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+
+
+}
+
+.button-9:hover {
+    background-color: #eaebec;
+}
+
+.main-caculator {
+    display: grid;
+    width: 500px;
+    grid-template-areas:
+      "_display _display _display _display"
+      "_cancle _cancle _remove _divide"
+      "_7 _8 _9 _multiply"
+      "_4 _5 _6 _subtract"
+      "_3 _2 _1 _add"
+      "_0 _0 _0 _equal"
+};
+
+.text-to-copy-to {
+    font-family: monospace;
+}
